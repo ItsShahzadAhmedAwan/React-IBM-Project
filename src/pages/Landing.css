@@ -1,6 +1,5 @@
 .landing-page {
   width: 100%;
-  min-height: auto;
   display: flex;
   flex-direction: column;
 }
@@ -11,15 +10,21 @@
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
   align-items: center;
+  justify-items: center;
   padding: 4rem 2rem;
   background: linear-gradient(135deg, #f0fdf4 0%, #ecf0f1 100%);
   margin-bottom: 3rem;
+  min-height: 500px;
+  width: 100%;
 }
 
 .hero-content {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
 }
 
 .hero-title {
@@ -94,6 +99,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 400px;
+  width: 100%;
 }
 
 .hero-image img {
