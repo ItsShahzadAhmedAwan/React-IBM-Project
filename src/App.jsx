@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import Navbar from './components/Navbar';
 import Landing from './pages/Landing';
 import Products from './pages/Products';
@@ -10,6 +10,7 @@ import './App.css';
 
 function App() {
   const dispatch = useDispatch();
+  const cartState = useSelector((state) => state.cart);
 
   // Load cart from localStorage on app mount
   useEffect(() => {
@@ -25,8 +26,6 @@ function App() {
   }, [dispatch]);
 
   // Save cart to localStorage whenever it changes
-  const cartState = require('./redux/store').default.getState().cart;
-
   useEffect(() => {
     localStorage.setItem('cart', JSON.stringify(cartState));
   }, [cartState]);
