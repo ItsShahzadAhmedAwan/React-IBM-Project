@@ -1,6 +1,8 @@
 .landing-page {
   width: 100%;
-  min-height: 100vh;
+  min-height: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Hero Section */
