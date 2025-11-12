@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/React-IBM-Project/static/css/main.32726f65.css",
-    "main.js": "/React-IBM-Project/static/js/main.67f76628.js",
+    "main.css": "/React-IBM-Project/static/css/main.589afebb.css",
+    "main.js": "/React-IBM-Project/static/js/main.5daf4eec.js",
     "index.html": "/React-IBM-Project/index.html",
-    "main.32726f65.css.map": "/React-IBM-Project/static/css/main.32726f65.css.map",
-    "main.67f76628.js.map": "/React-IBM-Project/static/js/main.67f76628.js.map"
+    "main.589afebb.css.map": "/React-IBM-Project/static/css/main.589afebb.css.map",
+    "main.5daf4eec.js.map": "/React-IBM-Project/static/js/main.5daf4eec.js.map"
   },
   "entrypoints": [
-    "static/css/main.32726f65.css",
-    "static/js/main.67f76628.js"
+    "static/css/main.589afebb.css",
+    "static/js/main.5daf4eec.js"
   ]
 }
