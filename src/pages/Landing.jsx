@@ -45,7 +45,7 @@ function Landing() {
 
         <div className="hero-image">
           <img
-            src="https://images.unsplash.com/photo-1545604645-1dd57f6211ed?w=500&h=500&fit=crop"
+            src="https://images.pexels.com/photos/4503270/pexels-photo-4503270.jpeg?w=500&h=500&fit=crop"
             alt="Beautiful plant collection"
           />
         </div>
