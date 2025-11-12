@@ -10,7 +10,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-      <Router>
+      {/* Use PUBLIC_URL as basename so app works when served from a subpath
+          (development server may serve at /React-IBM-Project). This ensures
+          the default route matches and Landing renders on initial load. */}
+      <Router basename={process.env.PUBLIC_URL || '/'}>
         <App />
       </Router>
     </Provider>
